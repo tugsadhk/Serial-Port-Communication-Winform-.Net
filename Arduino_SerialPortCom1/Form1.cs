@@ -35,7 +35,7 @@ namespace Arduino_SerialPortCom1
 			}
 			catch (Exception exe)
 			{
-				MessageBox.Show(exe.Message, "Connection Error", MessageBoxButtons.OK, MessageBoxIcon.Error); ;
+				MessageBox.Show(exe.Message, "Connection Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 				//throw;
 			}
 		}
